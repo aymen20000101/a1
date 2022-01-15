@@ -1,3 +1,12 @@
+/*
+ *  Ecrire un programme qui permet d'afficher une fenêtre disposant de 3 boutons placés dans un
+ *  panneau, disposé verticalement sur le côté gauche de la fenêtre. Au centre de la fenêtre, doit
+ *  apparaître une phrase au moment où l'on clique sur un bouton. La phrase indique quel bouton
+ *  a été cliqué.
+ *  Faites en sorte qu'un bip soit entendu chaque fois qu'on clique sur un bouton. Pensez à la
+ *  méthode beep() de la classe Toolkit)
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -5,7 +14,6 @@ import java.awt.event.ActionListener;
 public class Ex1_tp6 extends JFrame implements ActionListener{
    private JButton b1,b2,b3;
    private JLabel b4;
-   //private Toolkit s;
    private JPanel pwest,peast;
    public static void main(String[] args) {
         Ex1_tp6 test = new Ex1_tp6();
