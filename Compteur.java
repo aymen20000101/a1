@@ -20,9 +20,9 @@ public class Compteur extends JFrame implements ActionListener {
     private JButton b1,b2;
     private  GridLayout g,g1;
     public static void main(String[] args) {
-        Ex3_tp6 test = new Ex3_tp6();
+        Compteur test = new Compteur();
     }
-    Ex3_tp6() {
+    Compteur() {
         super.setTitle("counter");
         super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         super.setBounds(530,350,200,100);
