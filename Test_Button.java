@@ -11,14 +11,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-public class Ex1_tp6 extends JFrame implements ActionListener{
+public class Test_Button extends JFrame implements ActionListener{
    private JButton b1,b2,b3;
    private JLabel b4;
    private JPanel pwest,peast;
    public static void main(String[] args) {
-        Ex1_tp6 test = new Ex1_tp6();
+        Test_Button test = new Test_Button();
    }
-    Ex1_tp6(){
+    Test_Button(){
         super("Teste des boutons");
         super.setSize(300,150);
         pwest = new JPanel();
