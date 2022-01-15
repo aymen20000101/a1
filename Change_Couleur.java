@@ -8,13 +8,13 @@ import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-public class Ex2_tp6 extends Frame implements ItemListener {
+public class Change_Couleur extends Frame implements ItemListener {
     //private Choice c1;
     private Panel p1;
     public static void main(String[] args) {
-        Ex2_tp6 test = new Ex2_tp6();
+        Change_Couleur test = new Change_Couleur();
     }
-    public Ex2_tp6() {
+    public Change_Couleur() {
         super("Changer le couleur");
         super.setSize(400, 300);
         super.setAlwaysOnTop(true);
