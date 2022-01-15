@@ -1,10 +1,19 @@
+
+ /*  
+  * Écrivez une classe Counter qui crée une fenêtre comme celle présentée sur la figure suivante.
+  * La fenêtre n'est pas redimensionnable et fait 200 pixels de large sur 100 pixels de haut. Elle
+  * comporte un label et deux boutons. Il y a 20 pixels entre le label et le bouton - et 10 pixels entre
+  * les deux boutons. Le label affiche le texte Compteur : suivi de la valeur du compteur qui vaut
+  * 0 initialement. Une pression sur les boutons + (-) incrémente (décrémente) la valeur du
+  * compteur et met à jour le label.
+  */
 import javax.swing.*;
 import javax.swing.plaf.DimensionUIResource;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Ex3_tp6 extends JFrame implements ActionListener {
+public class Compteur extends JFrame implements ActionListener {
     private int x =0;
     private JLabel l1;
     private JPanel p1,p2;
