@@ -1,3 +1,9 @@
+/*  
+ * Ecrire un programme qui permet d'afficher une fenêtre (comme celle présentée sur la figure
+ * suivante) sur laquelle se trouve une boite combo. La boite combo contient une liste de 5 noms
+ * correspondants à 5 couleurs différentes. Si on choisit un de ces noms, la fenêtre prend la couleur
+ * correspondante.
+ */
 import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
